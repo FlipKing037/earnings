@@ -1,3 +1,4 @@
+import 'package:earnings/views/earning_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,8 @@ class EarningsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return const MaterialApp(
+      home: EarningView(),
+    );
   }
 }

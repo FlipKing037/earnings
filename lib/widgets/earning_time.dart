@@ -1,3 +1,4 @@
+import 'package:earnings/widgets/average.dart';
 import 'package:flutter/material.dart';
 
 class EarningTimeWidget extends StatelessWidget {
@@ -7,8 +8,12 @@ class EarningTimeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Padding(
       padding: EdgeInsets.all(32),
-      child: Column(
-        children: [Text('hello')],
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            AverageWidget(),
+          ],
+        ),
       ),
     );
   }

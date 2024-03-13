@@ -1,4 +1,5 @@
 import 'package:earnings/widgets/average.dart';
+import 'package:earnings/widgets/total_earnings.dart';
 import 'package:flutter/material.dart';
 
 class EarningTimeWidget extends StatelessWidget {
@@ -12,6 +13,10 @@ class EarningTimeWidget extends StatelessWidget {
         child: Column(
           children: [
             AverageWidget(),
+            SizedBox(
+              height: 24,
+            ),
+            TotalEarnings()
           ],
         ),
       ),

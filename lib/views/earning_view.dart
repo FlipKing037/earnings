@@ -7,6 +7,7 @@ class EarningView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffFBFBFF),
       appBar: AppBar(
         title: const Padding(
           padding: EdgeInsets.only(left: 32),

@@ -1,3 +1,4 @@
+import 'package:earnings/widgets/earning_time.dart';
 import 'package:flutter/material.dart';
 
 class EarningView extends StatelessWidget {
@@ -16,6 +17,7 @@ class EarningView extends StatelessWidget {
         ),
         backgroundColor: const Color(0xff15AABE),
       ),
+      body: const EarningTimeWidget(),
     );
   }
 }

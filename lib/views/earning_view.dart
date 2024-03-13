@@ -5,6 +5,17 @@ class EarningView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Padding(
+          padding: EdgeInsets.only(left: 32),
+          child: Text(
+            'Earnings',
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+        backgroundColor: const Color(0xff15AABE),
+      ),
+    );
   }
 }

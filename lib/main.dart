@@ -10,8 +10,9 @@ class EarningsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: EarningView(),
+    return MaterialApp(
+      home: const EarningView(),
+      theme: ThemeData(fontFamily: 'Rubik'),
     );
   }
 }

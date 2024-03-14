@@ -1,3 +1,4 @@
+import 'package:earnings/constructor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -17,7 +18,7 @@ class TheAvailable extends StatelessWidget {
         const Expanded(
           child: Text(
             'The Available Amonut Will Be Transfer At Beginning Of Each Month',
-            style: TextStyle(color: Color(0xff15AABE)),
+            style: TextStyle(color: kMasterColor),
           ),
         )
       ],

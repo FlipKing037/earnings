@@ -1,6 +1,7 @@
 import 'package:earnings/widgets/average.dart';
 import 'package:earnings/widgets/cards.dart';
 import 'package:earnings/widgets/the_available.dart';
+import 'package:earnings/widgets/the_transfer.dart';
 import 'package:earnings/widgets/total_earnings.dart';
 import 'package:flutter/material.dart';
 
@@ -27,6 +28,10 @@ class EarningTimeWidget extends StatelessWidget {
               height: 48,
             ),
             TheAvailable(),
+            SizedBox(
+              height: 24,
+            ),
+            TheTransfer()
           ],
         ),
       ),

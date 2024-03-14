@@ -1,3 +1,4 @@
+import 'package:earnings/constructor.dart';
 import 'package:flutter/material.dart';
 
 class TotalEarnings extends StatelessWidget {
@@ -29,14 +30,14 @@ class TotalEarnings extends StatelessWidget {
                   'SR',
                   style: TextStyle(
                       fontSize: 20,
-                      color: Color(0xff15AABE),
+                      color: kMasterColor,
                       fontWeight: FontWeight.bold),
                 ),
                 Text(
                   ' 3,750',
                   style: TextStyle(
                       fontSize: 24,
-                      color: Color(0xff15AABE),
+                      color: kMasterColor,
                       fontWeight: FontWeight.bold),
                 )
               ],

@@ -1,3 +1,4 @@
+import 'package:earnings/constructor.dart';
 import 'package:earnings/widgets/card.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +31,7 @@ class Cards extends StatelessWidget {
           image: 'assets/icons/Wallet2.svg',
           text: 'Available Amonut',
           mony: 'SR 1,200',
-          monyColor: Color(0xff15AABE),
+          monyColor: kMasterColor,
         ),
       ],
     );

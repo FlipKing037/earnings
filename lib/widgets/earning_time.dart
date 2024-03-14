@@ -1,4 +1,5 @@
 import 'package:earnings/widgets/average.dart';
+import 'package:earnings/widgets/cards.dart';
 import 'package:earnings/widgets/total_earnings.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,11 @@ class EarningTimeWidget extends StatelessWidget {
             SizedBox(
               height: 24,
             ),
-            TotalEarnings()
+            TotalEarnings(),
+            SizedBox(
+              height: 24,
+            ),
+            Cards()
           ],
         ),
       ),

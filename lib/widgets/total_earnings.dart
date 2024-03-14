@@ -12,7 +12,7 @@ class TotalEarnings extends StatelessWidget {
         borderRadius: BorderRadius.circular(12),
       ),
       child: const Padding(
-        padding: const EdgeInsets.all(16),
+        padding: EdgeInsets.all(16),
         child: Column(
           children: [
             Text(
